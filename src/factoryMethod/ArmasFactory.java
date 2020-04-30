@@ -4,8 +4,11 @@ package factoryMethod;
 /**
  * @author Romao
  */
+
+//Classe que servirá para encapsular a escolha da classe
 public class ArmasFactory {
     
+    //Opções das classes concretas
     public static final int AK47 = 1;
     public static final int M16 = 2;
     public static final int COLT = 3;
